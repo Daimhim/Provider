@@ -20,6 +20,7 @@ class CodeAssistantProcessor : SymbolProcessor {
     override fun finish() {}
     override fun onError() {}
     override fun process(resolver: Resolver): List<KSAnnotated> {
+
         println("111122 process")
         val symbolsWithAnnotation = resolver.getSymbolsWithAnnotation(FANCY_API_NAME)
         symbolsWithAnnotation.forEach {

@@ -10,8 +10,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/provider-annotation" />
-            <option value="$PROJECT_DIR$/provider-fancy" />
             <option value="$PROJECT_DIR$/provider-generate" />
           </set>
         </option>

@@ -6,6 +6,7 @@ import com.google.devtools.ksp.processing.SymbolProcessorEnvironment
 
 class CodeAssistantProvider : SymbolProcessorProvider {
     override fun create(environment: SymbolProcessorEnvironment): SymbolProcessor {
+        environment.logger.info("CodeAssistantProvider create")
         return CodeAssistantProcessor()
     }
 }
