@@ -15,5 +15,5 @@ public @interface FancyApi {
     String group() default "";
     Class<? extends FancyProvider.Factory> cla();
     String alias() default "";
-    String path() default "";
+    String path() default "com.zjkj.provider";
 }

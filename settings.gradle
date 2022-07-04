@@ -16,5 +16,5 @@ dependencyResolutionManagement {
 rootProject.name = "Provider"
 include ':app'
 include ':provider-generate'
-//include ':provider-fancy'
-//include ':provider-annotation'
+include ':provider-fancy'
+include ':provider-annotation'
