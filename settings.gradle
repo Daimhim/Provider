@@ -18,3 +18,5 @@ include ':app'
 include ':provider-generate'
 include ':provider-fancy'
 include ':provider-annotation'
+include ':provider-kapt'
+

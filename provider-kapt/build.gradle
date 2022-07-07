@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    implementation(project(":provider-fancy"))
+    implementation(project(":provider-annotation"))
+    implementation("com.squareup:kotlinpoet-ksp:1.12.0")
+    implementation('com.squareup:kotlinpoet:1.12.0')
+}

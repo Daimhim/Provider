@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/provider-annotation" />
             <option value="$PROJECT_DIR$/provider-fancy" />
             <option value="$PROJECT_DIR$/provider-generate" />
+            <option value="$PROJECT_DIR$/provider-kapt" />
           </set>
         </option>
       </GradleProjectSettings>
