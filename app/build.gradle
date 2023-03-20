@@ -39,8 +39,10 @@ android {
 //}
 dependencies {
 
-    implementation(project(":provider-fancy"))
-    implementation(project(":provider-annotation"))
+    implementation("com.github.Daimhim.Provider:provider-annotation:2.0.0")
+    implementation("com.github.Daimhim.Provider:provider-fancy:2.0.0")
+//    implementation(project(":provider-fancy"))
+//    implementation(project(":provider-annotation"))
 //    implementation("com.github.Daimhim.Provider:provider-fancy:1.0.0-test")
 //    implementation("com.github.Daimhim.Provider:provider-annotation:1.0.0-test")
 //    ksp(project(":provider-generate"))

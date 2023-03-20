@@ -14,6 +14,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Provider"
+
 include ':app'
 include ':provider-generate'
 include ':provider-fancy'
